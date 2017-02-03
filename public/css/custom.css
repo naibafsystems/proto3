@@ -1,0 +1,417 @@
+body {
+  /*padding-top: 40px;*/
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+}
+
+.btn-link {
+  color: rgb(182,1,76);
+}
+.btn-link:active, .btn-link:focus, .btn-link:hover {
+  color: rgb(120,20,79);
+}
+.container {
+  /*background: #aaa;*/
+}
+
+#dane-logo {
+  padding: 15px 0px 0px 15px;
+	height: 130px;
+}
+
+#bar {
+  left: 60px;
+}
+
+#fecha {
+  border-top: solid 5px rgb(182,1,76);
+  padding: 10px 0px 10px;
+}
+
+#idioma {
+  text-align: right;
+}
+
+#search {
+  margin-top: 10px;
+}
+
+.form-control:focus {
+  border-color: rgb(182,1,76);
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(182,1,76,.6);
+  /* box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(182,1,76,.6); */
+}
+
+.glyphicon {
+    top: 0px;
+}
+
+#icon-net {
+  margin: 10px 5px 10px;
+  float: right;
+  width: 30px;
+  height: 30px;
+}
+
+.ml {
+  background: url("../img/mail.png") no-repeat;
+}
+.tw {
+  background: url("../img/twitter.png") no-repeat;
+}
+.fb {
+  background: url("../img/facebook.png") no-repeat;
+}
+.yt {
+  background: url("../img/youtube.png") no-repeat;
+}
+.ml:active, .ml:hover, .ml:focus {
+  background: url("../img/mail_hv.png") no-repeat;
+}
+.tw:active, .tw:hover, .tw:focus {
+  background: url("../img/twitter_hv.png") no-repeat;
+}
+.fb:active, .fb:hover, .fb:focus {
+  background: url("../img/facebook_hv.png") no-repeat;
+}
+.yt:active, .yt:hover, .yt:focus {
+  background: url("../img/youtube_hv.png") no-repeat;
+}
+
+
+/* ___________ Colorbar ____________________ */
+#colorbar {
+  /*width:inherit;*/
+  position: relative;
+  z-index: 99;
+  height: 15px;
+  background-color: #E2007A;
+}
+#color_container {
+  /*width: 60%;
+  margin: 0 auto;*/
+  height: 35px;
+  top: -10px;
+}
+#color1 {
+  width: 16.66666666666667%;
+  margin-top: 10px;
+  height: 15px ;
+  background-color: #f5bc00;
+  float: left;
+}
+#color2 {
+  width: 16.66666666666667%;
+  margin-top: 10px;
+  height: 25px ;
+  background-color: #e87c28;
+  float: left;
+}
+#color3 {
+  width: 16.66666666666667%;
+  height: 25px ;
+  background-color: #C7D64F;
+  float: left;
+}
+#color4 {
+  width: 16.66666666666667%;
+  margin-top: 10px;
+  height: 25px;
+  background-color: #58a333;
+  float: left;
+}
+#color5 {
+  width: 16.66666666666667%;
+  margin-top: 10px;
+  height: 15px ;
+  background-color: #36a9e1;
+  float: left;
+}
+#color6 {
+  width: 16.66666666666667%;
+  height: 25px ;
+  background-color: #0080b5;
+  float: left;
+}
+
+#menu {
+  top: -20px;
+  position: relative;
+  height: 60px;
+  padding-top: 10px;
+  background: #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+  #dane-logo {
+    width: 300px;
+  }
+
+  .input-group {
+    top: -20px;
+    margin-left: 10px;
+  }
+
+  #menu {
+    top: 0px;
+  }
+}
+.col-md-2 {
+}
+
+.p {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.p a {
+  text-decoration: underline;
+  color: blue;
+}
+
+#inicio {
+  height: 800px;
+  background: rgb(236,236,236);
+}
+/* ESTILOS Y SCRIPTS MENU HORIZONTAL*/
+
+	#horizontalmenu {
+	/*left: -14px;*/
+	*left: 0px;/*IE*/
+	position: relative;
+	/*width: 970px;*/
+	z-index: 1001;
+	}
+
+	#horizontalmenu ul {
+	list-style:none;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size:10px;
+	/*width:960px;*/
+	}
+	#horizontalmenu ul a {
+	text-decoration:none;
+	color:#666666;		}
+
+	#temas, #temas ul, #temas ul li {
+	background-color:#595757 !important;
+	color:#FFF !important;
+	list-style-image:url(templates/beez_20/bullet_02.png) !important;
+	}
+	#horizontalmenu li {
+	float:left;
+	position:relative;
+	/*padding-right:100;*/
+	display:block;
+	border-right: #e1e0e0 solid 1px;
+	background-color:#f7f7f7;
+	text-align:center;
+	color:#666666;
+	line-height:60px;
+	}
+	#horizontalmenu li:hover {
+	background-color:#f1f1f1;
+	}
+	#horizontalmenu li:active {
+	background-color:#b6014c;
+	color:#FFFFFF;
+	}
+
+	#horizontalmenu li ul {
+	display:none;
+	position:absolute;
+	*margin: 0 0 0 10px;/*IE*/
+	*left: 0; /*IE*/
+	*top: 60px; /*IE*/
+	float:left;
+	background-color:#f1f1f1;
+	width:970px;
+	*width:960px;/*IE*/
+	}
+
+	#horizontalmenu li:hover ul{
+	display:block;
+	background-color:#f1f1f1;
+	height:auto;
+	/*width:8em;*/
+	color:#666666;
+	}
+
+	#horizontalmenu li ul li{
+	clear:both;
+	border-style:none;
+	line-height:24px;
+	text-align:left;
+	font-size:11px;
+	font-weight:normal;
+	margin-left:-22px;
+	background-color:#f1f1f1;
+	width:105%;
+	}
+	#horizontalmenu li ul li:hover{
+	background:#b6014c !important;
+	color:#FFFFFF !important;
+	width:105%;
+	}
+	.column {
+		display: block;
+		float: left;
+		border-right: 1px solid #E1E0E0;
+		height: 210px;
+		margin-right: 40px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		width: 154px; 
+	}
+	.column  h1{
+		margin-top:-20px;
+		margin-bottom:0px;
+		
+	}
+	.column2 {
+		margin-top:0px; 
+		float: left;
+	}
+	#column1{
+		width:225px;
+	}
+	#column2 {
+		display:block;
+		float: left;
+		width: 245px;
+	}
+	#column3{
+		width:186px; 
+		margin-right: -60px;
+	}
+	#column4{
+		width: 154px;
+		margin-right: 47px;
+	}
+	#column5{
+		width:348px;  
+		margin-right:40px; 
+	}
+	#column6{
+		width:154px; 
+	}
+	#column7{
+		width:154px; 
+		margin-right: -60px; 
+	}
+	#column8{
+		width:184px; 
+	}
+	#column9{
+		width:184px; 
+	}
+	#column10{
+		width:184px; 
+		margin-left:10px;
+	}
+	#column11{
+		width:164px; 
+		margin-left:10px;
+	}
+	#column12{
+		width:145px; 
+		margin-left:30px; 
+		height:150px; 
+		margin-right:0px; 
+		border-right: #e1e0e0 solid 0px;
+	}
+	
+	
+	/*.column:last-child{
+	border-right: #e1e0e0 solid 0px;
+	width:120px;
+	height:150px;
+	margin-right:0px;
+	margin-left:-6px;
+	}*/
+
+	h1{
+	font-size:16px;
+	font-weight:600;
+	margin-left:-20px;
+	padding-bottom:20px;
+	padding-top:20px;
+	line-height:24px;
+	text-align:left;
+	text-transform:uppercase;
+	}
+	.barra{
+	background-image:url("http://www.dane.gov.co/images/menu/BarraColores.gif");
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	width:960px;
+	height:17px;
+	margin-left:0px;
+	*margin-left:0px;/*IE*/
+	height:80px;
+	*height:17px;/*IE*/
+	}
+	#barra1{
+	background-image:url("http://www.dane.gov.co/images/menu/BarraColores.gif");
+	background-repeat:no-repeat;
+	background-position:bottom center;
+	width:959px;
+	height:17px;
+	margin-left:-40px;
+	*margin-left:0px;/*IE*/
+	/*height:77px;*/
+	*height:17px;/*IE*/
+	}
+
+
+	#column1 li
+	{
+	width: 100%;
+	}
+
+	#column2 li
+	{
+	width: 270px;
+	}
+
+	#column3 li
+	{
+	width: 150px;
+	}
+	#column4 li
+	{
+	width: 150px;
+	}
+	#column5 li
+	{
+	width: 150px;
+	}
+	#column6 li
+	{
+	width: 170px;
+	}
+	#column7 li
+	{
+	width: 170px;
+	}
+	#column8 li
+	{
+	width: 150px;
+	}
+
+	#temas img
+	{
+	margin-left: 3px;
+	}
+	#temas h1
+	{
+		margin-top:-10px;
+		margin-bottom:0px;
+	}
+
+/*FIN ESTILOS Y SCRIPTS MENU HORIZONTAL*/
+	
+blockquote
+{
+	font-size: 12px;
+}	

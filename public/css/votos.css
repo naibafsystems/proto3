@@ -1,0 +1,62 @@
+.rating {
+    background: #FFFFFF;
+    float: right;
+    height: 40px;
+    margin: 15px auto 0;
+    /*padding-left: 24px;
+    padding-top: 5px;*/
+    text-align: center;
+    /*width: 270px;*/
+}
+
+.estrella {
+    background: url('../images/estrella-gris.png') no-repeat;
+    width:25px;
+    height:23px;
+    float:left;
+    cursor:pointer;
+}
+
+.estrella-verde {
+    background: url('../images/estrella-verde.png') no-repeat;
+    width:25px;
+    height:23px;
+    float:left;
+    cursor:pointer;
+}
+
+.estrella:hover {
+    background: url('../images/estrella-verde.png') no-repeat;
+    width:25px;
+    height:23px;
+    float:left;
+}
+
+.selected {
+    background: url('../images/estrella-verde.png') no-repeat;
+    width:25px;
+    height:23px;
+    float:left;
+}
+
+.ok {
+    font-weight:bold;
+    margin-top:5px;
+    color: #669900;
+}
+
+#actual {
+    float:left;
+    width:150px;
+    margin-left:5px;
+}
+
+.correcto {
+    color:#009933;
+}
+
+
+
+.error {
+    color: #FF0000;
+}

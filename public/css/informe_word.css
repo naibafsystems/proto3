@@ -1,0 +1,16 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+	font-weight:normal;
+	color:#000000;
+	letter-spacing:0pt;
+	word-spacing:2pt;
+	font-size:12px;
+	text-align:left;
+	font-family:arial, helvetica, sans-serif;
+	line-height:1;
+	vertical-align: top;
+}

@@ -1,0 +1,87 @@
+<?php if ($this->session->userdata('logueado')) { ?>
+    <ol class="breadcrumb">
+        <li><a href="#">Inicio</a></li>
+        <li class="active">Términos y condiciones</li>
+    </ol>
+    <?php if ($error != "") { ?>
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Para empezar!</strong> ,debes aceptar los terminos y condiciones para el uso del portal.
+        </div>
+    <?php } else { ?>
+
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <h4>Responsabilidad y términos de uso del Portal de Gestión del Conocimiento del DANE</h4>
+                <p>En razón a la exigencia legal consagrada en el artículo 15 de la Constitución Política de Colombia y, en la Ley 1266 de 2008, Ley 1581 de 2012, Ley 80 de 1993 y demás normas que la modifiquen reglamenten o desarrollen, el Departamento Administrativo Nacional de Estadística (DANE), presenta los siguientes términos y condiciones del proceso y del uso de la información en el sitio web Portal de Gestión del Conocimiento:</p>
+                <b>1. Definiciones previas</b>
+                <ul>
+                    <li>Este espacio establece los "Términos y condiciones de uso" que regulan las políticas frente al tratamiento de la información que ingresen los participantes al iniciar la gestión del conocimiento, a través de la participación en el portal creado para tal fin.</li>
+                    <li>Por favor, lea esta página atentamente. Si no acepta estas condiciones generales, no utilice este sitio web.</li>
+                    <li>Tenga en cuenta que al permanecer en este sitio, usted declara, de manera tácita, la aceptación de las <i>condiciones generales</i> de uso del <i>Portal de Gestión del Conocimiento</i> y las reglas para su participación en él. </li>
+                    <li>El Departamento Administrativo Nacional de Estadística en adelante DANE puede revisar estos términos y condiciones de uso en cualquier momento, lo cual se verá reflejado en este espacio. </li>
+                    <li>Como usuario, es su responsabilidad ingresar periódicamente a esta página para estar al tanto de las posibles actualizaciones que estos términos puedan tener. </li>
+                    <li>El presente aplicativo está conformado por el conjunto de participantes que comparten el conocimiento en el sistema. </li>
+                    <li>Los participantes son los servidores del DANE, que tienen la intención de participar en el portal para compartir el conocimiento a través de diferentes servicios proporcionados por este sitio. </li>
+                </ul>
+                <b>2. Objeto</b>
+                <p>Facilitar a los usuarios servicios e información, así como divulgar y promover la gestión del conocimiento compartido por los funcionarios de esta entidad, a través del Portal de Gestión del Conocimiento.</p>
+                
+                <b>3. Ámbito de aplicación</b>
+                <p>Estos términos de uso se aplicarán a los servidores de la Entidad participantes, autorizados a acceder al Portal de Gestión del Conocimiento del DANE, (personal de planta, contratistas, pasantes).</p>
+                
+                <b>4. Ley aplicable y jurisdicción</b>
+                <p>El usuario no podrá manifestar ante el DANE, o ante una autoridad judicial o administrativa, la aplicación de condición, norma o convenio que no estén expresamente incorporados en las presentes condiciones de uso, salvo las excepciones constitucionales correspondientes. Estas condiciones serán gobernadas por las leyes de la República de Colombia, en los aspectos que no estén expresamente regulados por esta normativa. Si cualquier disposición de estas condiciones pierde validez o fuerza obligatoria, por cualquier razón, todas las demás disposiciones conservarán su fuerza obligatoria y carácter vinculante con todos sus efectos. Para cualquier efecto legal o judicial, el domicilio de las presentes condiciones es la ciudad de Bogotá, República de Colombia, y cualquier controversia que surja de su interpretación o aplicación se someterá a los jueces de la República de Colombia.</p>
+                
+                <b>5. Principios que rigen los términos y condiciones de uso</b>
+                <p>En el desarrollo, interpretación y aplicación del presente documento, se tendrán en cuenta los siguientes principios: </p>
+                <p><strong>Calidad de los datos.</strong> En virtud de este principio, la información a que se refiere este documento, esto es, la dispuesta en el sitio web tanto por sus administradores como por sus demás participantes, debe ser veraz, exacta, actualizada, comprobable, comprensible y, propender a la gestión del conocimiento en el DANE. </p>
+                <p><strong>Circulación restringida (limitación de su uso al objeto del DANE).</strong> Al no estar expresamente autorizada la divulgación de la información por parte del titular de los datos, es imposible el uso para otros fines diferentes al que motivó el suministro de los datos. </p>
+                <p><strong>Principio del respeto de los derechos constitucionales.</strong> Las actividades de suministro de la información y almacenamiento deben respetar las normas y principios constitucionales. </p>
+                <p><strong>Libertad.</strong> En virtud del cual los datos personales que no tienen naturaleza pública, a los que se refiere el presente documento solo pueden ser divulgados con el consentimiento libre, previo y expreso del titular, en los términos previstos en el presente documento. </p>
+                <p><strong>Respeto al buen nombre.</strong> En desarrollo del cual corresponde tanto a las fuentes y participantes como al DANE respetar el derecho al buen nombre de los usuarios de la plataforma. En tal sentido, la información que reporten, utilicen o administren deberá cumplir con las condiciones de calidad señaladas en el presente documento. </p>
+                <p><strong>Garantía al acceso de la información.</strong> Según el cual se garantiza a los usuarios de la información a que se refiere este documento, en todo tiempo, el conocimiento, actualización y rectificación de la información registrada en el Portal de Gestión del Conocimiento del DANE. </p>
+                <p><strong>Seguridad.</strong> En virtud del cual la información que reposa en las fuentes de información y en el aplicativo DANE, se manejará con las medidas técnicas necesarias para garantizar la seguridad de los registros, de tal manera que se evite su adulteración, pérdida, consulta o uso no autorizado. </p>
+                <p><strong>Gratuidad.</strong> En atención a este principio, los servicios prestados a través del aplicativo corresponden a un servicio para los participantes, gratuito e indiscriminado, bajo lo cual se entiende que la inscripción, recepción, almacenamiento, procesamiento y uso de la información que reposa en el aplicativo no constituye ninguna clase de erogación económica a los usuarios que utilicen el sistema.</p>                
+                
+                <b>6. Normas de uso general</b>
+                <p><strong>6.1 Información incluida en el aplicativo por los usuarios en general.</strong> Como usuario, usted es responsable de la información suministrada en el Portal de Gestión del Conocimiento del DANE y serán los usuarios los únicos responsables de la veracidad, actualización, consolidación, complementación y afirmaciones propias que reposan en los contenidos y por las consecuencias de incluir o colocar dicha información en el portal. Se entenderán por “contenidos” todos los gráficos, dibujos, diseños, logotipos, nombres, archivos de sonido o imagen, fotografías, grabaciones, software, documentos y, en general, cualquier clase de material accesible a través del Portal de Gestión del Conocimiento. </p>
+                <p><strong>6.2</strong> El DANE es responsable del tratamiento de la información personal recolectada a través del portal web, responsabilidad que podrá delegar en un tercero, asegurando contractualmente la seguridad de la información personal confiada.</p>
+                <p>Los datos e información recolectada por el DANE en sus bases de datos serán objeto de análisis para fines de mejorar la estrategia del portal web, apoyada en herramientas que permiten adquirir conocimientos prospectivos para fines de predicción, clasificación y segmentación. El análisis de la información y el valor agregado que generemos a ésta se hará con estricto respeto a los derechos de usuarios y consumidores.</p>
+                <p><strong>6.3 Obligaciones de los usuarios en general.</strong> Los usuarios están obligados a lo siguiente: (1) Usar los contenidos de forma diligente, correcta y lícita. (2) Los usuarios no podrán: (i) incluir o colocar en aplicativo cualquier clase de información o herramientas que estén protegidos por las leyes sobre derechos de autor, a menos que sea el propietario de tales derechos o haya obtenido permiso formal del propietario de tales derechos para incluir tal material en el aplicativo, (ii) incluir o colocar en el aplicativo información confidencial que atente contra la reserva industrial o comercial, a menos que sea el propietario de los mismos o haya obtenido autorización formal del propietario, (iii) incluir material obsceno, difamatorio, abusivo, amenazante u ofensivo que pudiese atentar contra los derechos de otro usuario o cualquier otra persona o entidad, (iv) incluir en el aplicativo imágenes o declaraciones pornográficas o que incluyan sexo explícito, (v) incluir o colocar en el aplicativo cualquier clase de información que pudiese considerarse publicidad o anuncios publicitarios o políticos, cadenas de cartas, virus, caballos de Troya, bombas de tiempo o cualquier programa de computador o herramienta con la intención de dañar, interferir, interceptar o apropiarse de cualquier sistema, datos o información. El DANE no será responsable por el uso indebido que hagan los usuarios del contenido dispuesto o enlazado en el Portal de Gestión del Conocimiento.</p>
+                <p><strong>6.4 Reglas de seguridad del DANE.</strong> Se prohíbe a los usuarios violar o intentar violar la seguridad del aplicativo, incluyendo pero no limitándose a: (a) acceder a datos que no estén destinados a tal usuario o entrar en un servidor o cuenta cuyo acceso no está autorizado al usuario; (b) evaluar o probar la vulnerabilidad de un sistema o red, ó violar las medidas de seguridad o identificación sin la adecuada autorización; (c) intentar impedir el servicio a cualquier usuario, anfitrión o red, incluyendo sin limitación, mediante el envío de virus al sitio web, o mediante saturación, envíos masivos ("flooding"), "spamming", bombardeo de correo o bloqueos del sistema ("crashing"); (d) enviar correos no pedidos, incluyendo promociones o publicidad de productos o servicios; (e) falsificar cualquier cabecera de paquete TCP/IP o cualquier parte de la información de la cabecera de cualquier correo electrónico o en mensajes de foros de debate; (f) borrar, adulterar, filtrar, deshabilitar o revisar cualquier material e información anunciado por otra persona o Entidad. </p>
+                <p>En caso de que un usuario administrador o el mismo DANE corrobore la existencia de información que no cumpla estas obligaciones de los usuarios, el DANE se reserva el derecho de investigar y determinar de buena fe y, a su exclusiva discreción, el derecho de retirar o solicitar que sean excluidas dichas comunicaciones, así como determinar las situaciones de suspensión o la deshabilitación definitiva del usuario infractor y siempre será obligación del DANE poner en conocimiento de las autoridades competentes judiciales y administrativas los hechos considerados como posibles faltas disciplinarias o punibles penales.</p>
+                <p><strong>6.5 El uso del material.</strong> La denominación "material y herramientas" comportan todos y cada uno de los contenidos de este aplicativo web, tales como textos, gráficos, imágenes, logotipos, símbolos, informaciones e íconos de botón, software y cualquier otro material. Queda prohibida la utilización de las marcas y nombres públicos DANE, con intento de defraudar, desinformar, confundir u obtener beneficios de la utilización de los mencionados nombres. La utilización del material y las marcas de manera fraudulenta o irregular podrá configurar faltas y delitos protegidos por la ley colombiana vigente. </p>
+                <p>Considerando que el usuario, eventualmente, puede llegar a incluir en el portal cualquier tipo de material (videos, textos, fotos e imágenes) de su titularidad o de titularidad de un tercero —para lo cual el usuario debe contar con la debida autorización o hacer las referencias correspondientes, de acuerdo con lo estipulado en las leyes de derechos de autor—, se establece expresamente que, al incluir dicho material en el portal se considera que implícitamente el usuario ha autorizado al DANE para que tal contenido aparezca y quede en el portal sin derecho a contraprestación de ninguna índole por parte del DANE. En caso de incluirlo, el usuario lo podrá mantener por el lapso que lo considere pertinente.</p>
+                <p>En relación con cualquier tipo de información o material remitido al portal por los usuarios (incluidos fotos o imágenes, videos, textos o cualquier otro tipo de material de propiedad de los usuarios o de un tercero que los hubiere facultado para ello), se entenderá que el usuario es el titular de los derechos de autor sobre tales contenidos y que, al haberlos incluido en el portal, otorga licencia no exclusiva, gratuita e incondicional de uso sobre dichos contenidos al DANE, sin derecho a percibir posterior contraprestación, retribución o reclamo, cualquiera sea su índole. </p>
+                <p>El DANE, en virtud de la licencia de uso otorgada, podrá hacer uso de dicho material y en consecuencia podrá realizar la reproducción y sincronización del contenido publicado en cualquier formato existente o por existir. Igualmente, la comunicación pública o distribución de tal contenido se podrán realizar a través de cualquier medio existente o por desarrollase y sin limitarse, tales como: internet y descargas a dispositivos móviles. En consecuencia, el DANE queda en plena libertad de realizar cualquier acción de reproducción, publicación, modificación, fijación, comercialización, comunicación pública y negociación plena, sin ninguna restricción respecto a los derechos patrimoniales sobre cualquier contenido que haya sido publicado o remitido por algún usuario del portal.</p>
+                <p><strong>6.6 Registro y contraseña.</strong> Los usuarios del aplicativo, en general, son los responsables de mantener la confidencialidad y custodia de sus datos y de su contraseña. Serán, asimismo, responsables de todos los usos de su perfil. En caso de olvido, manipulación, inactivación o sospecha de fraude o utilización indebida, los usuarios deberán notificar inmediatamente al DANE —Grupo Área de Innovación y Aprendizaje (GAIA)— cualquier uso sin autorización de su usuario o contraseña. </p>
+                
+                <b>7. Causales de inactivación</b>
+                <p>Cualquier clase de acceso, intervención o manejo considerado como fraudulento, dañino, malintencionado y malicioso, de los reglamentados anteriormente en las obligaciones de los usuarios, comprobado o sospechoso, será potestativo para que el DANE de manera discrecional pueda suspender el acceso al aplicativo. La suspensión o inactivación del servicio al usuario será potestativo del DANE y se determinara teniendo en cuenta la gravedad de la situación, el compromiso del DANE y las consecuencias a terceras personas por la acción, de igual forma, el DANE dará traslado a las autoridades competentes a fin de que apliquen las sanciones del caso si a esto hubiere lugar.</p>
+                
+                <b>8. Soporte técnico.</b>
+                <p>Cualquier duda, inquietud o comentario sobre el contenido de este portal debe dirigirse al Grupo Área de Innovación y Aprendizaje (GAIA) del DANE: innovacion_aprendizaje@dane.gov.co, teléfono (571) 5978300 Ext.: 2025, 2030, fax (571) 5978399.</p>
+                
+                <p><b>9. </b>Esta licencia de uso se rige por la legislación colombiana, independientemente del entorno jurídico del usuario. Cualquier disputa que llegue a surgir en la interpretación de estos términos se resolverá bajo el amparo de la jurisprudencia colombiana.</p>
+                <br />
+                <div class="row">
+                    <div class="text-center">
+                        <form action="<?php echo base_url(); ?>index.php/Terminos/aceptar_terminos" method="POST">
+                            <input type="hidden" name="url" id="url" value="<?php echo base_url(); ?>" />
+                            <button id="aceptar" class="btn btn-primary">Aceptar</button>
+                            <a href="<?php echo base_url(); ?>index.php/login/cerrar_sesion" class="btn btn-danger">Cancelar</a>
+                        </form>
+                    </div>
+                </div>
+                <br /><br />
+            </div>
+        </div>
+
+    <?php } ?>
+    <?php
+} else {
+    echo redirect(base_url("index.php/login/iniciar_sesion"));
+}
+?>
